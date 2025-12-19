@@ -54,16 +54,3 @@ This project is open-source and available under the MIT License.
 
 
 ---
-
-### How to update this on GitHub:
-
-1.  **Save the file:** Create `README.md` in your main `ToDoApp` folder.
-2.  **Add and Commit:**
-    ```bash
-    git add README.md
-    git commit -m "docs: Add professional README with build instructions"
-    ```
-3.  **Push to GitHub:**
-    ```bash
-    git push
-    ```
