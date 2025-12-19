@@ -26,3 +26,44 @@ To build this project, you need:
    ```bash
    git clone [https://github.com/YOUR-USERNAME/ToDoApp.git](https://github.com/YOUR-USERNAME/ToDoApp.git)
    cd ToDoApp
+2. **Generate build files and compile:**
+
+   Bash
+   
+   mkdir build && cd build
+   cmake ..
+   cmake --build .
+   
+   Run the application:
+   Bash
+   ./todo
+
+🗺️ Project Roadmap
+[x] Basic Task and TaskList classes
+
+[x] Interactive Terminal Menu
+
+[ ] Persistence (Saving tasks to a .txt or .dat file)
+
+[ ] Due dates and Priority levels
+
+[ ] Search functionality
+
+📄 License
+This project is open-source and available under the MIT License.
+
+
+---
+
+### How to update this on GitHub:
+
+1.  **Save the file:** Create `README.md` in your main `ToDoApp` folder.
+2.  **Add and Commit:**
+    ```bash
+    git add README.md
+    git commit -m "docs: Add professional README with build instructions"
+    ```
+3.  **Push to GitHub:**
+    ```bash
+    git push
+    ```
